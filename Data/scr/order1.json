@@ -1,0 +1,87 @@
+{
+    "Orders": {
+        "Order": {
+            "id": "1001",
+            "status": "Shipped",
+            "Customer": {
+                "CustomerID": "56789",
+                "Name": "John Doe",
+                "Email": "john.doe@example.com",
+                "Phone": "+1-555-1234"
+            },
+            "OrderDetails": {
+                "OrderDate": "2025-02-10",
+                "TotalAmount": {
+                    "currency": "USD",
+                    "value": 345.67
+                }
+            },
+            "Shipping": {
+                "Method": "Express",
+                "TrackingNumber": "EXP123456789",
+                "Address": {
+                    "Street": "123 Elm Street",
+                    "City": "New York",
+                    "State": "NY",
+                    "Zip": "10001",
+                    "Country": "USA"
+                }
+            },
+            "OrderLines": {
+                "OrderLine": [
+                    {
+                        "lineNumber": "1",
+                        "Product": {
+                            "ProductID": "98765",
+                            "Name": "Wireless Headphones",
+                            "Category": "Electronics"
+                        },
+                        "Quantity": 1,
+                        "UnitPrice": {
+                            "currency": "USD",
+                            "value": 199.99
+                        },
+                        "Discount": {
+                            "percentage": 10,
+                            "value": 19.99
+                        }
+                    },
+                    {
+                        "lineNumber": "2",
+                        "Product": {
+                            "ProductID": "12345",
+                            "Name": "USB-C Charger",
+                            "Category": "Accessories"
+                        },
+                        "Quantity": 2,
+                        "UnitPrice": {
+                            "currency": "USD",
+                            "value": 29.99
+                        },
+                        "Discount": {
+                            "percentage": 5,
+                            "value": 2.99
+                        }
+                    },
+                    {
+                        "lineNumber": "3",
+                        "Product": {
+                            "ProductID": "67890",
+                            "Name": "Smartwatch",
+                            "Category": "Wearable"
+                        },
+                        "Quantity": 1,
+                        "UnitPrice": {
+                            "currency": "USD",
+                            "value": 115.99
+                        },
+                        "Discount": {
+                            "percentage": 15,
+                            "value": 17.40
+                        }
+                    }
+                ]
+            }
+        }
+    }
+}
